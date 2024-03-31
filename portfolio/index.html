@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marvin - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carousel-styles.css">
 </head>
 <body>
     <header>
@@ -48,26 +49,33 @@
     <section id="projects">
         <div class="container">
             <h2>Work History</h2>
-            <div class="carousel-container">
-                <div class="carousel-slide">
-                    <div class="project">
-                        <h3>Call Center Agent</h3>
+            <div class="carousel">
+                <div class="slides">
+                    <div class="slide active">
                         <img src="images/call_center.jpg" alt="Call Center">
+                        <div class="slide-content">
+                            <h3>Call Center Agent</h3>
+                            <p>Top 3 Sales Representative</p>
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-slide">
-                    <div class="project">
-                        <h3>IT Specialist</h3>
+                    <div class="slide">
                         <img src="images/it_specialist.jpg" alt="IT Specialist">
+                        <div class="slide-content">
+                            <h3>IT Specialist</h3>
+                            <p>A path I chose</p>
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-slide">
-                    <div class="project">
-                        <h3>Jr. Technical Support</h3>
+                    <div class="slide">
                         <img src="images/technical_support.jpg" alt="Technical Support">
+                        <div class="slide-content">
+                            <h3>Jr. Technical Support</h3>
+                            <p>To a bigger company</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>          
         </div>
     </section>
     <section id="resume">
@@ -82,8 +90,8 @@
         <p>Mobile: +639151600067</p>
     </footer>
     <div id="scrollToTop" class="scroll-to-top">&uarr;</div>
-    <script src="script.js"></script>
     <script src="menu-script.js"></script>
     <script src="arrow-script.js"></script>
+    <script src="carousel-script.js"></script>
 </body>
 </html>

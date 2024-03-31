@@ -16,10 +16,6 @@ header {
     padding: 20px 0;
 }
 
-.logo img {
-    max-width: 100px; /* Adjust size as needed */
-}
-
 main {
     display: flex;
     justify-content: space-between;
@@ -113,25 +109,8 @@ h2 {
     align-items: center;
     text-align: center;
 }
-.project {
+.projects{
     margin-bottom: 20px;
-}
-.carousel-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    overflow: hidden;
-    width: 100%;
-    max-width: 600px;
-    margin: 50px auto;
-}
-img{
-    height: 99%;
-    width: 99%;
-}
-h3{
-    text-align: center;
 }
 footer {
     background-color: #333;
