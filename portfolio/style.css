@@ -7,10 +7,19 @@ header, section{
     padding: 15px;
 }
 
+.menu{
+    text-align: left;
+}
+
 .pic-info img{
     width: 250px;
     height: 250px;
     border-radius: 250px;
+    object-fit: cover;
+}
+
+.brand img{
+    height: 150px;
     object-fit: cover;
 }
 
