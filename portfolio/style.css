@@ -12,22 +12,25 @@ header, section{
 }
 
 .pic-info img{
-    width: 250px;
-    height: 250px;
-    border-radius: 250px;
+    width: 450px;
+    height: 450px;
+    border-radius: 450px;
     object-fit: cover;
+    margin-right: 150px !important;
 }
 
 .brand img{
-    height: 150px;
+    height: 0 auto;
     object-fit: cover;
 }
 
 .info-center{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    text-align: left;
+    flex-wrap: wrap;
+
 }
 
 .info-name{
@@ -38,9 +41,10 @@ header, section{
 }
 
 .info-name h1{
-    font-size: 50px;
+    font-size: 70px;
     color: #102A42;
     padding: 0 auto;
+    margin-bottom: 0;
 }
 
 .info-name span{
@@ -100,7 +104,7 @@ ul {
 }
 
 .menu ul li {
-    margin-right: 20px;
+    margin-right: 65px;
 }
   
   .menu ul li:last-child {
@@ -109,7 +113,7 @@ ul {
 
 a {
     text-decoration: none;  
-    color: #111;
+    color: #102a42;
     font-weight: bold;
 }
 
@@ -143,8 +147,35 @@ a {
     .menu ul li {
       margin: 10px 0;
     }
+
+    .info-center{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pic-info img{
+        text-align: center;
+        margin-right: 0 !important;
+        margin-top: 50px;
+    }
 }
 
+@media only screen and (max-width: 635px){
+    .pic-info img{
+        width: 250px;
+        height: 250px;
+        border-radius: 250px;
+        text-align: center;
+        margin-right: 0 !important;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 397px){
+    .info-name h1{
+        font-size: 60px !important;
+    }
+}
 a:hover {
     color: #ffcc00;
 }
