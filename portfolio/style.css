@@ -83,6 +83,7 @@ main {
 .menu-toggle {
     display: none;
     cursor: pointer;
+    margin-top: 0;
 }
   
 .hamburger {
@@ -136,12 +137,12 @@ a {
   
     .menu-toggle {
       display: block;
+      margin-bottom: 75px;
     }
   
     .menu ul {
       flex-direction: column;
       align-items: center;
-      padding: 0;
     }
   
     .menu ul li {
