@@ -49,7 +49,7 @@ body {
 
 .info-name span{
     color: #617DA5;
-    font-weight: 400px !important;
+    font-weight: bold !important;
 }
 
 .info-socials{
@@ -124,7 +124,7 @@ ul {
 .menu li{
     position: relative;
     cursor: pointer;
-    transition: color 0.3s ease;
+    transition: color 0.01s ease;
     margin-right: 65px;
 }
   
