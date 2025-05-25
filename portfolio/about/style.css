@@ -1,0 +1,223 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.menu{
+    text-align: left;
+}
+
+#about{
+    background-image: linear-gradient(#E0FCFF 100%);
+    padding: 75px 0;
+    height: 45vh;
+}
+
+.about-cont{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-image img{
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    object-fit: cover;
+    margin-right: 150px !important;
+}
+
+/* H1, social media, website picture */
+.info-socials{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.info-socials a{
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+
+/* section containers */
+
+header{
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* navigations */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 20px auto; */
+}
+
+.menu li{
+    position: relative;
+    cursor: pointer;
+    transition: color 0.01s ease;
+    margin-right: 65px;
+}
+  
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu ul li a:hover, a:hover{
+    color: #2CAEBA;
+}
+
+.menu ul li::after{
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #2CAEBA;
+  transition: width 0.3s ease;
+}
+.menu ul li:hover::after{
+    width: 100%;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;  
+    color: #102a42;
+    font-weight: bold;
+}
+
+a:link, a:visited, a:hover, a:active { 
+    text-decoration: none; 
+} 
+
+/* hamburger */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    margin-top: 0;
+}
+  
+.hamburger {
+    width: 25px;
+    height: 3px;
+    background-color: #111;
+    margin: 5px 0;
+}
+
+/* hamburger X */
+.menu-exit{
+    display: none;
+    margin-bottom: 75px;
+}
+
+.menu-exit {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.menu-exit::before,
+.menu-exit::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  transform-origin: center;
+}
+
+.menu-exit::before {
+  transform: rotate(45deg);
+}
+
+.menu-exit::after {
+  transform: rotate(-45deg);
+}
+@media only screen and (max-width: 768px) {
+    .menu {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;  /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    background-color: white; 
+    z-index: 99999;  
+    }
+    .menu-exit{
+        z-index: 999999999999999999999;
+    }
+  
+    .menu.active {
+      display: flex;
+    }
+  
+    .menu-toggle {
+      display: block;
+      margin-bottom: 75px;
+    }
+  
+    .menu ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu ul li {
+      margin: 10px 0;
+    }
+}
+@media only screen and (max-width: 724px){
+    .about-cont{
+    justify-content: center;
+}
+    .about-image img{
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 420px){
+    .about-image img{
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+
+    }
+}
+
