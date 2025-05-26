@@ -4,72 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marvin - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="carousel-styles.css">
-    <link href="https://fontawesome.com/icons/facebook?f=classic&s=brands">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/carousel-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <header>
         <main class="container navigation">
             <div class="brand">
-                <img src="logo.jpg" alt="Logo">
+                <a href=""><img src="logo.gif" alt="Logo"></a>
             </div>
-            <div class="brand-links">
-                <nav class="menu"> 
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="#projects">Work History</a></li>
-                        <li><a href="#resume">Resume</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <nav class="menu"> 
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="#projects">Work History</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                </ul>
+            </nav>
             <div class="menu-toggle">
                 <div class="hamburger"></div>
                 <div class="hamburger"></div>
                 <div class="hamburger"></div>
             </div>
+            <div class="menu-exit"></div>
         </main>
     <section id="banner">
         <div class="container info-center">     
             <div class="text-info">
                 <div class="info-name">
-                    <h1>I'm Pokoy</h1>
+                    <h1>I'm Marvin</h1>
                     <span>Scroll Down Below</span>
                 </div>
                 <div class="info-socials">
                     <ul class="social-links">
-                        <li><a class="btn" href="mailto:marvinjadego@gmail.com"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a class="btn" href="tel:+639151600067"><i class="fa-solid fa-phone"></i>+639151600067</a></li>
-                        <li><a class="btn" href=""></a></li>
+                        <li><a class="btn" href="mailto:marvinjadego@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+                        <li><a class="btn" href="https://www.facebook.com/marvinjade.go.7/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a class="btn" href="tel:+639151600067"><i class="fa-solid fa-phone" target="_blank"></i></a></li>
                     </ul>
                 </div>
             </div>
             <div class="pic-info">
                 <div class="image">
-                    <img src="pokoy.jpg" alt="Logo">
+                    <img src="web-image.jpg" alt="Logo">
                 </div>
             </div>
         </div>
-    </header>
     </section>
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Hello, I'm a highly motivated computer science graduate with a strong emphasis on web development. 
-                My professional journey began in a call center environment, where I developed effective communication and problem-solving skills while assisting customers with their inquiries. 
-                Transitioning to an IT specialist role, I honed my technical expertise, addressing various issues related to computer systems and networks.
-            </p>
-            <p>
-                Driven by a passion for web development, I shifted my focus to this dynamic field. 
-                Leveraging my technical support background, I bring a unique perspective to troubleshooting and optimizing web applications. 
-                My experience encompasses a blend of customer-centric communication from my call center days, technical proficiency gained as an IT specialist, and the problem-solving agility cultivated in technical support roles.
-            </p> 
-            <p>
-                Equipped with a solid foundation in computer science, I am committed to staying at the forefront of evolving web technologies to create innovative and user-friendly solutions. 
-                My diverse professional background has instilled in me a versatile skill set, enabling me to approach web development with a holistic and comprehensive mindset.
-            </p>
-        </div>
+    </header>
+    <section id="resume">
+
+        <a href="resume.pdf" download="resume.pdf" target="_blank"><h1>Download Resume</h1></a>
     </section>
     <section id="projects">
         <div class="container">
@@ -103,22 +88,42 @@
             </div>          
         </div>
     </section>
-    <section id="resume">
-        <a href="resume.pdf" download="resume.pdf"><h2>Download Resume</h2></a>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello, I'm a highly motivated computer science graduate with a strong emphasis on web development. 
+                My professional journey began in a call center environment, where I developed effective communication and problem-solving skills while assisting customers with their inquiries. 
+                Transitioning to an IT specialist role, I honed my technical expertise, addressing various issues related to computer systems and networks.
+            </p>
+            <p>
+                Driven by a passion for web development, I shifted my focus to this dynamic field. 
+                Leveraging my technical support background, I bring a unique perspective to troubleshooting and optimizing web applications. 
+                My experience encompasses a blend of customer-centric communication from my call center days, technical proficiency gained as an IT specialist, and the problem-solving agility cultivated in technical support roles.
+            </p> 
+            <p>
+                Equipped with a solid foundation in computer science, I am committed to staying at the forefront of evolving web technologies to create innovative and user-friendly solutions. 
+                My diverse professional background has instilled in me a versatile skill set, enabling me to approach web development with a holistic and comprehensive mindset.
+            </p>
+        </div>
     </section>
+
     <footer>
         <div class="container">
             <p>
             <span>&copy; 2024 Marvin Jade Cabusor Go. All rights reserved.</span><br>
-            <span>Email: marvinjadego@gmail.com</span><br>
-            <span>LinkedIn: https://www.linkedin.com/in/marvin-jade-86643717b/</span><br>
-            <span>Mobile: +639151600067</span>
             </p>
+            <div class="info-socials">
+                <ul class="social-links">
+                    <li><a class="btn" href="mailto:marvinjadego@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                    <li><a class="btn" href="https://www.facebook.com/marvinjade.go.7/"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a class="btn" href="tel:+639151600067"><i class="fa-solid fa-phone"></i></a></li>
+                </ul>
+            </div>
         </div>
     </footer>
     <div id="scrollToTop" class="scroll-to-top">&uarr;</div>
-    <script src="menu-script.js"></script>
-    <script src="arrow-script.js"></script>
-    <script src="carousel-script.js"></script>
+    <script src="js/menu-script2.js"></script>
+    <script src="js/arrow-script.js"></script>
+    <script src="js/carousel-script.js"></script>
 </body>
 </html>
