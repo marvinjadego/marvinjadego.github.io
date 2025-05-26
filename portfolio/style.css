@@ -4,7 +4,7 @@ body {
     padding: 0 auto;
 }
 header, section{
-    padding: 15px;
+    padding: 75px;
 }
 
 .menu{
@@ -90,6 +90,8 @@ main {
 
 nav {
     display: flex;
+    justify-content: center;
+    
 }
 
 ul {
@@ -100,6 +102,9 @@ ul {
 }
 
 .menu ul li {
+    margin-left: 20px;
+}
+.menu ul li:nth-last-child {
     margin-right: 20px;
 }
   
@@ -149,9 +154,6 @@ a:hover {
     color: #ffcc00;
 }
 
-section {
-    margin: 40px 0;
-}
 
 h2 {
     text-align: center;
