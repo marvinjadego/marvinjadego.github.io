@@ -4,9 +4,19 @@ body {
     padding: 0 auto;
 }
 
+a h2{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #2CAEBA;
+}
+a h2:hover{
+    background-color: #2CAEBA;
+    color: white !important;
+}
+
 h2 {
     text-align: center;
-    color: #333;
+    color: #102A42;
     margin-top: 0;
 }
 
@@ -80,7 +90,7 @@ header{
 }
 
 #about, #resume{
-    background-color: #F1F5F8;
+    background-color: #f1f5f8;
     padding: 50px 0;
 }
 
@@ -129,7 +139,7 @@ main {
     margin-right: 0;
 }
 
-.menu ul li a:hover, a:hover{
+.menu ul li a:hover, a:hover, a h2:hover{
     color: #2CAEBA;
 }
 
