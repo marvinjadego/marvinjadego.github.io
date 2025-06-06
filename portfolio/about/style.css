@@ -9,9 +9,9 @@ body {
 }
 
 #about{
-    background-image: linear-gradient(#E0FCFF 100%);
+    background-image: linear-gradient(#F1F5F8 100%);
     padding: 75px 0;
-    height: 45vh;
+    height: 100%;
 }
 
 .about-cont{
@@ -19,6 +19,7 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
+    height: 56.5vh;
 }
 
 .about-image img{
@@ -63,6 +64,13 @@ footer {
     padding: 10px 0;
 }
 
+footer .info-socials a{
+    color: white !important; 
+}
+
+footer .info-socials a:hover{
+    color: #2CAEBA !important; 
+}
 
 /* navigations */
 main {
@@ -122,6 +130,35 @@ a {
 a:link, a:visited, a:hover, a:active { 
     text-decoration: none; 
 } 
+
+/* skills */
+.desc-skills{
+    font-family: 'Open-sans', sans-serif;
+    padding-top: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.desc-skills span{
+    background-color: #DAE2EC;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.desc-texts h2{
+    position: relative;
+    padding-top: 5px;
+}
+
+.desc-texts h2:before{
+    position: absolute;
+    content: '';
+    width: 15%;
+    height: 5px;
+    top: 0;
+    background-color: #2CAEBA; 
+}
 
 /* hamburger */
 .menu-toggle {
