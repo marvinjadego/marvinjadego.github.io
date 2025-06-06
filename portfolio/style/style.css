@@ -36,7 +36,7 @@ h2::after{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    height: 85vh;
     text-align: left;
     flex-wrap: wrap;
 }
