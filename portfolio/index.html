@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/carousel-styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style/tabs-style.css">
+
 </head>
 <body>
     <header>
@@ -52,6 +54,69 @@
         </div>
     </section>
     </header>
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <div class="over-cont container">
+            <div class="but-cont">
+                <div class="tab">
+                    <a class="tablinks" onclick="openCity(event, 'first')" id="defaultOpen">GTS Linkedsys</a>
+                </div> 
+                <div class="tab">
+                    <a class="tablinks" onclick="openCity(event, 'second')">Wilcon Depot Inc.</a>
+                </div> 
+                <div class="tab">
+                    <a class="tablinks" onclick="openCity(event, 'third')">World Wide Web</a>
+                </div>
+            </div>
+            <div class="desc-cont">
+                <div id="first" class="tabcontent">
+                    <div class="desc-title">
+                    <h3>IT Specialist</h3>
+                    </div>
+                    <div class="desc-skills">   
+                    <span>GTS Linkedsys</span>
+                    </div>
+                    <div class="desc-year">
+                    <h3>2022-2023</h3>
+                    </div>
+                    <ul class="exp-skills">
+                        <li><i class="fa-solid fa-greater-than"></i>Team Leader of 3</li>
+                        <li><i class="fa-solid fa-greater-than"></i>Set-up computers after renovation of new office</li>
+                        <li><i class="fa-solid fa-greater-than"></i>Managed payroll</li>
+                        <li><i class="fa-solid fa-greater-than"></i>Arranged Meetings with the management</li>
+                        <li><i class="fa-solid fa-greater-than"></i>Assist agents with their computers</li>
+                    </ul>
+                </div>
+                <div id="second" class="tabcontent">
+                    <h3>Jr. IT Technical Support</h3>
+                    <div class="desc-skills">   
+                    <span>Wilcon Depot Inc.</span>
+                    </div>   
+                    <div class="desc-year">
+                    <h3>2023-2024</h3>
+                    </div>                 
+                    <ul class="exp-skills">
+                        <li><i class="fa-solid fa-greater-than"></i>Q.C., Malaybalay, Iligan, CDO Uptown, CDO Cugman, CDO Opol, Butuan</li>
+                        <li><i class="fa-solid fa-greater-than"></i>Set-up and Troubleshoot CCTVS</li>
+                        <li><i class="fa-solid fa-greater-than"></i>Set-up Computers</li>
+                        <li><i class="fa-solid fa-greater-than"></i>Troubleshoot and Maintain Computers</li>
+                        <li><i class="fa-solid fa-greater-than"></i>Communicate with other branches and Head Office</li>
+                        <li><i class="fa-solid fa-greater-than"></i>Troubleshoot and Maintain servers</li>
+                    </ul>
+                </div>
+                <div id="third" class="tabcontent">
+                    <h3>Freelancer</h3>
+                    <div class="desc-skills">   
+                    <span>World Wide Web</span>
+                    </div>         
+                    <div class="desc-year">
+                    <h3>2009-present</h3>
+                    </div>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+            </div>
+        </div>        
+    </section>
     <section id="resume">
         <a href="resume.pdf" download="resume.pdf" target="_blank"><h3>Download Resume</h3></a>
     </section>
@@ -124,5 +189,6 @@
     <script src="js/menu-script2.js"></script>
     <script src="js/arrow-script.js"></script>
     <script src="js/carousel-script.js"></script>
+    <script src="js/tabs.js"></script>
 </body>
 </html>

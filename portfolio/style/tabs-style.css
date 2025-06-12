@@ -1,0 +1,88 @@
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  /* position: relative; */
+  /* border: 1px solid #ccc;
+  background-color: #f1f1f1; */
+}
+
+/* Style the buttons inside the tab */
+.tab button, .tab a {
+  background-color: white;
+  position: relative;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  width: 175px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover, .tab a:hover  { 
+  background-color: #E0FCFF;
+}
+
+/* Create an active/current tablink class */
+.tab button.active, .tab a.active {
+  background-color: #E0FCFF;
+  border-left: 2px solid #E0FCFF !important;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 0 12px;
+}
+
+.tabcontent .desc-cont{
+  margin-top: 0 !important;
+}
+
+.over-cont{
+    display: flex;
+}
+
+.desc-title{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.desc-cont{
+  display: flex;;
+  justify-content: flex-start;
+  align-content: center;
+  text-align: left;
+  padding: 0 25px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.desc-skills span{
+    background-color: #DAE2EC;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+ul.exp-skills{
+    list-style: none;
+    padding: 0;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.fa-greater-than{
+  font-size: 15px;
+  /* padding: 15px;
+  border-radius: 100%;
+  border: 1px solid #102A42; */
+  color: #102A42;
+  padding-right: 15px;
+}
+@media only screen and (max-width: 685px){
+  .over-cont{
+    flex-direction: column;
+  }
+}
