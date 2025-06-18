@@ -85,4 +85,7 @@ ul.exp-skills{
   .over-cont{
     flex-direction: column;
   }
+  .tab button, .tab a{
+    width: 100%;
+  }
 }
