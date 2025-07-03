@@ -9,6 +9,7 @@
   height: 250px;
   object-fit: cover;
   padding: 15px;;
+  /* margin: 15px; */
 }
 
 .rev-websites img {
@@ -20,6 +21,10 @@
 .rev-websites img:hover {
   opacity: 1;
   transform: scale(1.03);
+}
+
+.rev-websites img:hover, .initial-website img:hover{
+  background-color: #E0FCFF;
 }
 
 /* 
